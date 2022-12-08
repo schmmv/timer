@@ -12,6 +12,6 @@ for (const item of times) {
 }
 };
 
-const seconds = process.argv.slice(2).sort((a, b) => a - b);
+const seconds = process.argv.slice(2);
 
 timer(seconds);
